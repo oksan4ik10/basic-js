@@ -26,9 +26,7 @@ const chainMaker = {
 
   },
   removeLink(position) {
-    
-      console.log(this.chain);
-      console.log(position);
+
       let arrChain = this.chain.split('~~');
       if((typeof(arrChain[position-1])==='undefined')){
               this.chain = '';
